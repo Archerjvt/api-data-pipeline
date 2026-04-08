@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "API Data Pipeline - Endpoint Testing",
+    "description": "Postman collection for validating API endpoints used in the data pipeline. Author: Vijay Teli",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Users",
+      "request": {
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/users",
+        "description": "Retrieve all user records. Expected: 10 records with nested address and company objects."
+      }
+    },
+    {
+      "name": "Get Single User",
+      "request": {
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/users/1",
+        "description": "Retrieve single user by ID. Used for validation and debugging."
+      }
+    },
+    {
+      "name": "Get All Posts",
+      "request": {
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "description": "Retrieve all posts. Expected: 100 records linked to users via userId."
+      }
+    },
+    {
+      "name": "Get Posts by User",
+      "request": {
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/posts?userId=1",
+        "description": "Filter posts by userId. Used to validate user-post relationship."
+      }
+    }
+  ]
+}
