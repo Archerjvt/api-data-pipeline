@@ -14,7 +14,7 @@ Organizations often need to pull data from external APIs (HRIS platforms, identi
 - SQL queries for analysis and reporting on the loaded data
 
 ## How This Relates to My Work
-At DCU, I modernized 3 legacy SFTP integrations by converting them to REST APIs. I designed data mappings, API specs, and validated payloads using Postman. This project demonstrates that same workflow using a public API.
+At Digital Federal Credit Union, I modernized 3 legacy SFTP integrations by converting them to REST APIs. I designed data mappings, API specs, and validated payloads using Postman. This project demonstrates that same workflow using a public API.
 
 ## Tools
 - Python 3 (requests, pandas, json)
